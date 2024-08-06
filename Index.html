@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Comparison</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Bai Jamjuree', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 15px;
+            text-align: center;
+        }
+        .comparison-table th {
+            background-color: #045cb4;
+            color: #fff;
+        }
+        .comparison-table td {
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .checkmark {
+            color: #045cb4;
+            font-size: 24px;
+        }
+        .crossmark {
+            color: #e65125;
+            font-size: 24px;
+        }
+        .header-row {
+            color: #fff;
+            font-weight: bold;
+        }
+        .Box-row{
+           
+         font-weight: bold;
+        }
+        .feature-icons {
+            width: 25px;
+            height: 25px;
+            vertical-align: middle;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .filter-button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .filter-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .filter-button.all {
+            background-color:  #e65125;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="filter-buttons">
+        <a href="#" class="filter-button all">
+            <img src="all.svg" alt="All Icon">
+            ALL
+        </a>
+        <a href="#" class="filter-button">
+            <img src="car-transport-svgrepo-com.svg" alt="Car Icon">
+            CAR
+        </a>
+        <a href="#" class="filter-button">
+            <img src="motobike.svg" alt="Bike Icon">
+            BIKE
+        </a>
+        <a href="#" class="filter-button">
+            <img src="Cng.svg" alt="CNG Icon">
+            CNG
+        </a>
+        <a href="#" class="filter-button">
+            <img src="truck-svgrepo-com.svg" alt="Truck Icon">
+            TRUCK
+        </a>
+        <a href="#" class="filter-button">
+            <img src="ship-sea-cruise-navigation-svgrepo-com.svg" alt="Ship Icon">
+            SHIP
+        </a>
+    </div>
+    
+
+<h1>প্রোডাক্ট ও সেবা বৈশিষ্ট্য সমূহ</h1>
+
+<div class="table-container">
+    <table class="comparison-table">
+        <thead>
+            <tr class="header-row">
+                <th>বৈশিষ্ট্য সমূহ</th>
+                <th>ওবিডি  ট্র্যাকার</th>
+                <th>পোর্টেবল ট্র্যাকার</th>
+                <th>লাইট ট্র্যাকার</th>
+                <th>স্ট্যান্ডার্ড ট্র্যাকার</th>
+                <th>গ্লাস ট্র্যাকার</th>
+                <th>গ্রো ট্র্যাকার</th>
+                <th>মেগা ট্র্যাকার</th>
+                <th>আল্ট্রা ট্র্যাকার</th>
+                <th>কাস্টম ট্র্যাকার</th>
+            </tr>
+        </thead>
+        <tbody class="Box-row">
+            <tr >
+                <td > <img src="" alt="">লোকেশন ট্র্যাকিং</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+            </tr>
+            <tr>
+                <td>বেসিক ফিচার(speed,Geo-fanch,report,etc)</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+            </tr>
+            <tr>
+                <td>ইঞ্জিন / পাওয়ার স্ট্যাটাস</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+            </tr>
+            <tr>
+                <td>রিমোট ইঞ্জিন অন / অফ</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+            </tr>
+            <tr>
+                <td>ভয়েস মনিটর ডোর স্ট্যাটাস</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+                <td class="checkmark">&#10003;</td>
+            </tr>
+            <tr>
+                <td>ডোর স্ট্যাটাস</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+            </tr>
+            <tr>
+                <td>ফুয়েল স্ট্যাটাস</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+            </tr>
+            <tr>
+                <td>লোড / ওয়েট স্ট্যাটাস</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+            </tr>
+            <tr>
+                <td>ভিডিও মনিটর</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+                <td class="crossmark">&#10007;</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
